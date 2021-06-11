@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yixlein Proyecto Final</title>
+</head>
+
+<body>
+    <header>
+    <img id="logo-watt" src="Images/logo.jpeg" alt="logo">
+    <h1>Introducción al Desarrollo Web</h1>
+    <nav id="nav-header">
+        <a href="index.html">Inicio</a>
+        <a href="biografia.html">Biografía</a>
+        <a href="galeria.html">Galería</a>
+    </nav>
+ </header>
+<main>
+    <section class="contenedor">
+        <h2>Galeria</h2>
+        <nav id="navegador-categorias">
+         <button id="boton-familia" onclick="mostrarCategoria('familia')">Familia</button>
+         <button id="boton-trabajo" onclick="mostrarCategoria('trabajo')">Trabajo</button>  
+         <button id="boton-hobbies" onclick="mostrarCategoria('hobbies')">Hobbies</button>     
+        </nav>
+    <div id="galeria">
+        <div class="category" id="familia">
+            <div class="fotos-todas"><img src="Images/Familia/fam1.png" alt="familia1"></div>
+            <div class="fotos-todas"><img src="Images/Familia/fam2.png" alt="familia2"></div>
+            <div class="fotos-todas"><img src="Images/Familia/fam3.png" alt="familia3"></div>
+            <div class="fotos-todas"><img src="Images/Familia/fam4.png" alt="familia4"></div>
+        </div>
+        <div class="category" id="trabajo">
+            <div class="fotos-todas"><img src="Images/Trabajo/trab1.png" alt="trabajo1"></div>
+            <div class="fotos-todas"><img src="Images/Trabajo/trab2.png" alt="trabajo2"></div>
+            <div class="fotos-todas"><img src="Images/Trabajo/trab3.png" alt="trabajo3"></div>
+            <div class="fotos-todas"><img src="Images/Trabajo/trab4.png" alt="trabajo4"></div>         
+        </div>
+        <div class="category" id="hobbies">
+            <div class="fotos-todas"><img src="Images/Hobbies/hobby1.png" alt="hobby1"></div>
+            <div class="fotos-todas"><img src="Images/Hobbies/hobby2.png" alt="hobby2"></div>
+            <div class="fotos-todas"><img src="Images/Hobbies/hobby3.png" alt="hobby3"></div>
+            <div class="fotos-todas"><img src="Images/Hobbies/hobby4.png" alt="hobby4"></div>        
+        </div>
+    </div>
+    </section>
+</main>
+<footer>
+    <small>&#169; 2021 Hecho por <strong>Yixlein Rodríguez</strong></small>
+    <nav id="redes-nav">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    </nav>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
