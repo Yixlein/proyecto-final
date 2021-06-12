@@ -34,6 +34,7 @@ h1 {
 h2 {
     color: rgb(88, 87, 87);
     font-family: cursive;
+    font-size: 30px;
 }
 
 h3 { 
@@ -87,11 +88,15 @@ footer {
     width: 100%;
     max-width: 1280px;
 }
+#texto-que-aprendi {
+    margin: 40px 0 40px;
+}
 .contenedor {
     padding: 0 37px;  
 }
 .cajas {
     width: 100%;
+    margin: 20px 0;
 }
 .caja-uno {
     background-color: #ccc2c1;
