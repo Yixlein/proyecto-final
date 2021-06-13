@@ -170,9 +170,13 @@ footer {
 #galeria {
     margin: 20px 0 80px;
 }
-
-#boton-hobbies  {
+#boton-familia {
+    background-color: #bb837a;
+}
+#boton-hobbies, #boton-trabajo  {
     background-color: #dab7b2;
+}
+#boton-hobbies, #boton-familia, #boton-trabajo  {
     font-family: cursive;
     font-size: 18px;
     color: white;
@@ -183,34 +187,9 @@ footer {
     box-shadow: 0px 1px 3px #d1d0d0;
     cursor: pointer;
     }
-    #boton-trabajo  {
-        background-color: #dab7b2;
-        font-family: cursive;
-        font-size: 18px;
-        color: white;
-        border-radius: 10px;
-        border:none;
-        padding: 10px 15px;
-        margin: 10px 8px 35px;
-        box-shadow: 0px 1px 3px #d1d0d0;
-        cursor: pointer;
-        }
-    #boton-familia {
-        background-color: #bb837a;
-        font-family: cursive;
-        font-size: 18px;
-        color: white;
-        border-radius: 10px;
-        border:none;
-        padding: 10px 15px;
-        margin: 10px 0px 35px;
-        box-shadow: 0px 1px 3px #d1d0d0;
-        cursor:pointer;
-    }
-    #boton-trabajo:hover {
+ #boton-trabajo:hover {
         background-color: #bb837a; 
     }
-
 #trabajo, #hobbies {
     display: none;
 }
